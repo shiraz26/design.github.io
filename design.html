@@ -1,0 +1,312 @@
+<html>
+<head>
+    <title> Bootstrap Website </title>
+    <link rel="stylesheet" type="text/css" href="css/style8.css">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     
+    <!--smooth scroll javascript/ jquery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+    $(document).ready(function(){
+      // Add smooth scrolling to all links
+      $("a").on('click', function(event) {
+    
+        // Make sure this.hash has a value before overriding default behavior
+        if (this.hash !== "") {
+          // Prevent default anchor click behavior
+          event.preventDefault();
+    
+          // Store hash
+          var hash = this.hash;
+    
+          // Using jQuery's animate() method to add smooth page scroll
+          // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+          $('html, body').animate({
+            scrollTop: $(hash).offset().top
+          }, 800, function(){
+    
+            // Add hash (#) to URL when done scrolling (default click behavior)
+            window.location.hash = hash;
+          });
+        } // End if
+      });
+    });
+    </script> 
+    
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+
+</head>
+
+<body>
+
+    <section class=" header">
+            <video autoplay loop class="video-background" muted plays-inline  >
+                    <source src= "dubai.mp4" type="video/mp4">
+                </video>
+    </section>
+
+    
+        <nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
+            <div class="container">
+                <a href="" class="navbar-brand text-warning font-weight-bold"> FIRST WEBSITE </a>
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsenavbar">
+
+                     <span class="navbar-toggler-icon"> </span>
+                    </button>
+
+                <div class="collapse navbar-collapse text-center" id="collapsenavbar">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="#services" class="nav-link text-white"> SERVICES </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#portfolio" class="nav-link text-white">PORTFOLIO </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#services" class="nav-link text-white">ABOUT US </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#team" class="nav-link text-white"> TEAM </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#services" class="nav-link text-white"> CONTACT </a>
+                        </li>
+                    </ul>
+                </div>
+
+
+            </div>
+        </nav>
+                 
+
+    
+
+        <div class="container text-center text-white headerset meetus">
+            <h2>WELCOME TO OUR STUDIO</h2>
+            <h1> IT'S NICE TO MEET YOU </h1>
+            <button class="btn btn-warning text-white btn-large "> SUBSCRIBE </button>
+
+        </div>
+    </div>
+    
+    <section id="services" class="container ourservices text-center">
+        <h1> SERVICES </h1>
+        <p> Our good services is to satisfy the customer ! </p>
+        <div class="row rowsetting">
+
+            <div class="col-lg-4 col-md-4 col-sm-4 col-10">
+                <div class="imgsetting d-block m-auto bg-warning"><i class="fa fa-shopping-cart fa-3x text-white"> </i>
+                </div>
+
+                <h2> E-COMMERCE </h2>
+                <p> We create unique and customized e-commerce solutions on all major technology platforms.</p>
+
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4 col-10">
+                <div class="imgsetting d-block m-auto bg-warning"><i class="fa fa-laptop fa-3x text-white"> </i>
+                </div>
+
+                <h2> RESPONSIVE DESIGN </h2>
+                <p> We create unique and customized e-commerce solutions on all major technology platforms.</p>
+
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4 col-10">
+                <div class="imgsetting d-block m-auto bg-warning"><i class="fa fa-lock fa-3x text-white "> </i>
+                </div>
+
+                <h2> WEB SECURITY </h2>
+                <p> We create unique and customized e-commerce solutions on all major technology platforms.<br> Now more than
+                    ever, is the time to take your business digital. <br> Get solution in 30 days </p>
+
+            </div>
+        </div>
+
+
+    </section>
+
+    <!
+
+        ///////////////////////////////////////////////////PORTFOLIO///////////////////////////-->
+
+    <section id="portfolio" class="portfolio bg-light">
+        <div class="container text-center">
+            <h1> PORTFOLIO </h1>
+            <p> Portfolio management is the art and science of selecting and overseeing <br> a group of investments that meet
+                the long-term financial objectives and risk tolerance of a client,<br> a company, or an institution. </p>
+
+            <div class="row">
+                <div class=" col-lg-4 col-md-4 col-sm-12 col-10">
+
+                    <div class="card">
+
+                        <img src="img/portfolio/02-thumbnail.jpg" class="card-img img-fluid">
+                        <div class="card-body">
+
+                            <h2 class="card-title"> THREAD </h2>
+                            <p class="card-text"> ILLUSTRATION </p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class=" col-lg-4 col-md-4 col-sm-12 col-10">
+
+                    <div class="card">
+
+                        <img src="img/portfolio/04-thumbnail.jpg" class="card-img img-fluid">
+                        <div class="card-body">
+
+                            <h2 class="card-title"> EXPLORE </h2>
+                            <p class="card-text"> GRAPHIC DESIGN </p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class=" col-lg-4 col-md-4 col-sm-12 col-10">
+
+                    <div class="card">
+
+                        <img src="img/portfolio/05-thumbnail.jpg" class="card-img img-fluid">
+                        <div class="card-body">
+
+                            <h2 class="card-title"> MARKETING </h2>
+                            <p class="card-text"> ONLINE </p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class=" col-lg-4 col-md-4 col-sm-12 col-10">
+
+                    <div class="card">
+
+                        <img src="img/portfolio/06-thumbnail.jpg" class="card-img img-fluid">
+                        <div class="card-body">
+
+                            <h2 class="card-title"> lINES </h2>
+                            <p class="card-text"> TEAM WORK </p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class=" col-lg-4 col-md-4 col-sm-12 col-10">
+
+                    <div class="card">
+
+                        <img src="img/portfolio/06-thumbnail.jpg" class="card-img img-fluid">
+                        <div class="card-body">
+
+                            <h2 class="card-title"> CAMERA </h2>
+                            <p class="card-text"> PHOTOGRAPHY</p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class=" col-lg-4 col-md-4 col-sm-12 col-10">
+
+                    <div class="card">
+
+                        <img src="img/portfolio/08-thumbnail.jpg" class="card-img img-fluid">
+                        <div class="card-body">
+
+                            <h2 class="card-title"> TARGET </h2>
+                            <p class="card-text"> MASS MARKET </p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+            </div>
+
+
+
+
+
+        </div>
+
+
+    </section>
+
+
+    <section id="team" class="ourteam">
+        <div class="container text-center">
+            <h1> OUR AMAZING TEAM </h1>
+            <p> we have a team of programmers and designers </p>
+            <div class="row teamsetting">
+                <div class="col-lg-4 col-md-4 col-sm-10 col-12 d-block m-auto">
+                    <figure class="figure">
+                        <img src="img/team/01.jpg" class="figure-img img-fluid rounded-circle" height=" 250px" width="250px">
+
+                        <figcaption>
+                            <h4> SHIRAZ </h4>
+                            <p class="figure-caption"> CEO </p>
+                        </figcaption>
+
+                    </figure>
+                </div>
+
+                <div class="col-lg-4 col-md-4 col-sm-10 col-12 d-block m-auto">
+                    <figure class="figure">
+                        <img src="img/team/02.jpg" class="figure-img img-fluid rounded-circle" height=" 250px" width="250px">
+
+                        <figcaption>
+                            <h4> RUBAB </h4>
+                            <p class="figure-caption"> HR MANAGER </p>
+                        </figcaption>
+
+                    </figure>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-10 col-12 d-block m-auto">
+                    <figure class="figure">
+                        <img src="img/team/03.jpg" class="figure-img img-fluid rounded-circle" height=" 250px" width="250px">
+
+                        <figcaption>
+                            <h4> RAMEEZ </h4>
+                            <p class="figure-caption"> IT-MANAGER </p>
+                        </figcaption>
+
+                    </figure>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <footer class="footer">
+
+        <h6 class="text-center"> copyright 2018 , Design by Shiraz </h6>
+    </footer>
+
+    
+
+
+</body>
+
+</html>
